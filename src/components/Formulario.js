@@ -44,7 +44,7 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
                     id="ciudad" 
                     value={ciudad}
                     onChange={handleChange}
-                    className="shadow-none  focus:ring-indigo-500 focus:border-indigo-500 block sm:text-xl text-black font-normal  border-gray-300 px-4 rounded-full w-1/2 h-10" 
+                    className="shadow-none  focus:ring-indigo-500 focus:border-indigo-500 block sm:text-xl text-black font-normal  border-gray-300 px-4 rounded-full lg:w-1/2 h-10" 
                     placeholder="Ciudad" />
             </div>
             

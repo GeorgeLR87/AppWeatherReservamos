@@ -26,12 +26,12 @@ const Clima = ({resultado, resultadoLatLon}) => {
 
   return (
     <div>
-        <div>
-             <h2 className='text-5xl pt-6 pl-10'>{display}</h2>   
-             <p className='pt-5 text-4xl pl-10'>{ parseFloat(current.temp - kelvin).toFixed(2) }  &#x2103;</p>
-             <p className='pt-5 text-2xl pl-10'>Max: { parseFloat(daily[0].temp.max - kelvin).toFixed(2) }  &#x2103;</p>
-             <p className='pt-5 text-2xl pl-10'>Min: { parseFloat(daily[0].temp.min - kelvin).toFixed(2) }  &#x2103;</p>
-             <p className='pt-5 text-2xl pl-10'>{timeConverter(current.dt)}</p>
+        <div className='sm:flex sm:flex-col md:flex lg:grid'>
+             <h2 className=' sm:text-5xl md:text-6xl lg:text-6xl pt-6 pl-10'>{display}</h2>   
+             <p className='pt-5 sm:text-4xl md:text-5xl lg:text-5xl pl-10'>{ parseFloat(current.temp - kelvin).toFixed(2) }  &#x2103;</p>
+             <p className='pt-5 sm:text-3xl md:text-3xl lg:text-3xl pl-10'>Max: { parseFloat(daily[0].temp.max - kelvin).toFixed(2) }  &#x2103;</p>
+             <p className='pt-5 sm:text-3xl md:text-3xl lg:text-3xl pl-10'>Min: { parseFloat(daily[0].temp.min - kelvin).toFixed(2) }  &#x2103;</p>
+             <p className='pt-5 sm:text-3xl md:text-3xl lg:text-3xl pl-10'>{timeConverter(current.dt)}</p>
 
         </div>      
     </div>

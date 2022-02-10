@@ -73,11 +73,11 @@ function App() {
 
   return (
     <Fragment>
-      <main>
-        <div className="h-48 max-h-full hover:max-h-screen">
-          <div className="absolute inset-0">
+      <div className="">
+        <div className="md:relative md:grid">
+          <div className="fixed inset-0 ">
             <img
-              className="h-full w-full opacity-100 object-cover"
+              className="h-full w-full opacity-100 object-cover md:bg-fixed"
               src={BackGround}
               alt="People working on laptops"
             />
@@ -88,9 +88,9 @@ function App() {
 
           </div>
 
-          <div className="relative grid grid-cols-12 pt-10 ">
+          <div className="relative lg:grid md:grid-cols-12 pt-10 ">
             
-            <div className="col-start-2 col-end-6  h-96  text-white">
+            <div className="lg:col-start-2 lg:col-end-6  h-96  text-white">
               <Formulario
               busqueda={busqueda}
               guardarBusqueda={guardarBusqueda}
@@ -107,7 +107,7 @@ function App() {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </Fragment>
   );
 }
