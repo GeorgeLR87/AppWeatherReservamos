@@ -77,7 +77,7 @@ function App() {
         <div className="h-48 max-h-full hover:max-h-screen">
           <div className="absolute inset-0">
             <img
-              className="h-full w-full opacity-9/5 object-cover"
+              className="h-full w-full opacity-100 object-cover"
               src={BackGround}
               alt="People working on laptops"
             />
@@ -89,7 +89,7 @@ function App() {
           </div>
 
           <div className="relative grid grid-cols-12 pt-10 ">
-
+            
             <div className="col-start-2 col-end-6  h-96  text-white">
               <Formulario
               busqueda={busqueda}

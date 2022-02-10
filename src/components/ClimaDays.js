@@ -24,52 +24,52 @@ const ClimaDays = ({resultado}) => {
     <div className='flex justify-between align-top'>
 
         <div className=''>            
-             <p>Temp: { parseFloat(daily[1].temp.day - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Max: { parseFloat(daily[1].temp.max - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Min: { parseFloat(daily[1].temp.min - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>{timeConverter(daily[1].dt)}</p>
+             <p className='pt-5 text-lg pl-10'>Temp: { parseFloat(daily[1].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Max: { parseFloat(daily[1].temp.max - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Min: { parseFloat(daily[1].temp.min - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>{timeConverter(daily[1].dt)}</p>
         </div>  
 
         <div>        
-             <p>Temp: { parseFloat(daily[2].temp.day - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Max: { parseFloat(daily[2].temp.max - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Min: { parseFloat(daily[2].temp.min - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>{timeConverter(daily[2].dt)}</p>
+             <p className='pt-5 text-lg pl-10'>Temp: { parseFloat(daily[2].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Max: { parseFloat(daily[2].temp.max - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Min: { parseFloat(daily[2].temp.min - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>{timeConverter(daily[2].dt)}</p>
         </div>    
 
         <div>      
-             <p>Temp: { parseFloat(daily[3].temp.day - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Max: { parseFloat(daily[3].temp.max - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Min: { parseFloat(daily[3].temp.min - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>{timeConverter(daily[3].dt)}</p>
+             <p className='pt-5 text-lg pl-10'>Temp: { parseFloat(daily[3].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Max: { parseFloat(daily[3].temp.max - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Min: { parseFloat(daily[3].temp.min - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>{timeConverter(daily[3].dt)}</p>
         </div>  
 
         <div>          
-             <p>Temp: { parseFloat(daily[4].temp.day - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Max: { parseFloat(daily[4].temp.max - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Min: { parseFloat(daily[4].temp.min - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>{timeConverter(daily[4].dt)}</p>
+             <p className='pt-5 text-lg pl-10'>Temp: { parseFloat(daily[4].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Max: { parseFloat(daily[4].temp.max - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Min: { parseFloat(daily[4].temp.min - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>{timeConverter(daily[4].dt)}</p>
         </div>  
 
         <div>   
-             <p>Temp: { parseFloat(daily[5].temp.day - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Max: { parseFloat(daily[5].temp.max - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Min: { parseFloat(daily[5].temp.min - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>{timeConverter(daily[5].dt)}</p>
+             <p className='pt-5 text-lg pl-10'>Temp: { parseFloat(daily[5].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Max: { parseFloat(daily[5].temp.max - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Min: { parseFloat(daily[5].temp.min - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>{timeConverter(daily[5].dt)}</p>
         </div>  
 
         <div>            
-             <p>Temp: { parseFloat(daily[6].temp.day - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Max: { parseFloat(daily[6].temp.max - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Min: { parseFloat(daily[6].temp.min - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>{timeConverter(daily[6].dt)}</p>
+             <p className='pt-5 text-lg pl-10'>Temp: { parseFloat(daily[6].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Max: { parseFloat(daily[6].temp.max - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Min: { parseFloat(daily[6].temp.min - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>{timeConverter(daily[6].dt)}</p>
         </div> 
 
         <div>         
-             <p>Temp: { parseFloat(daily[7].temp.day - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Max: { parseFloat(daily[7].temp.max - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>Min: { parseFloat(daily[7].temp.min - kelvin).toFixed(2) }</p> <span> &#x2103; </span>
-             <p>{timeConverter(daily[7].dt)}</p>
+             <p className='pt-5 text-lg pl-10'>Temp: { parseFloat(daily[7].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Max: { parseFloat(daily[7].temp.max - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>Min: { parseFloat(daily[7].temp.min - kelvin).toFixed(2) }   &#x2103;</p> 
+             <p className='pt-5 text-base pl-10'>{timeConverter(daily[7].dt)}</p>
         </div> 
     </div>
   )

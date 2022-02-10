@@ -9,6 +9,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: 'Lato', sans-serif;
+  font-family: 'M PLUS 2', sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 code {

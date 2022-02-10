@@ -28,28 +28,31 @@ const Formulario = ({busqueda, guardarBusqueda, guardarConsultar}) => {
 
 
   return (
-    <form
+    <form 
         onSubmit={handleSubmit}
     >
         {error ? <Error mensaje='Campo Obligatorio' /> : null}
-      <div>
-            <label htmlFor="ciudad" className="ml-px pl-4 block text-lg font-medium text-white">Ciudad:</label>
-            <div className="mt-1 opacity-75">
+      <div className='pt-10'>
+            <label htmlFor="ciudad" 
+            className="ml-px pl-4 block font-medium text-white tracking-tight text-2xl sm:text-3xl lg:text-4xl ">
+                Ciudad:
+            </label>
+            <div className="mt-1 opacity-75 pt-10">
                 <input 
                     type="text" 
                     name="ciudad" 
                     id="ciudad" 
                     value={ciudad}
                     onChange={handleChange}
-                    className="shadow-none  focus:ring-indigo-500 focus:border-indigo-500 block w-full sm:text-xl text-black font-normal  border-gray-300 px-4 rounded-full" 
+                    className="shadow-none  focus:ring-indigo-500 focus:border-indigo-500 block sm:text-xl text-black font-normal  border-gray-300 px-4 rounded-full w-1/2 h-10" 
                     placeholder="Ciudad" />
             </div>
-            <br></br>
-            <div>
+            
+            <div className='pt-10 pl-10'>
                 <button 
                 type="submit" 
                 value='Buscar Clima'
-                className="inline-flex items-center px-6 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+                className="inline-flex items-center px-5 py-1 border border-gray-300 shadow-sm tracking-tight text-1xl  sm:text-1xl lg:text-2xl font-medium rounded-md text-black bg-stone-400 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-stone-500 opacity-90"
                 >Buscar Clima
                 </button>
                 
