@@ -28,17 +28,7 @@ const ClimaDays = ({resultado}) => {
      console.log(menor, newIndex);
 
     
-         
-         
-     
-    
-    
-    
-    //console.log(menor, newIndex);
-    
-
-
-    
+      
     
     if(!daily) return null
 
