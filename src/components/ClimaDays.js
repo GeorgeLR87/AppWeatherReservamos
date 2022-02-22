@@ -2,7 +2,42 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 const ClimaDays = ({resultado}) => {
+
     const { daily } = resultado
+
+    console.log(daily);
+
+     let menor = daily[0].temp.day
+
+     //console.log(menor);
+     let newIndex = 0 
+
+     if(daily !== undefined){
+          daily.map((element, index) => {
+
+               if(menor > element.temp.day){
+              
+                    menor = element.temp.day 
+                    newIndex = index
+                 } 
+
+                 return 0
+          })          
+     } 
+
+     console.log(menor, newIndex);
+
+    
+         
+         
+     
+    
+    
+    
+    //console.log(menor, newIndex);
+    
+
+
     
     
     if(!daily) return null
@@ -21,7 +56,12 @@ const ClimaDays = ({resultado}) => {
     const kelvin = 273.15
 
   return (
+
+
     <div className='flex justify-between align-top lg:flex-row  sm:flex-col'>
+
+         
+         
 
         <div className='sm:pt-5 md:pt-2 lg:pt-1'>            
              <p className='pt-5 lg:text-3xl md:text-5xl sm:text-4xl pl-10'>Temp: { parseFloat(daily[1].temp.day - kelvin).toFixed(2) }&#x2103;</p> 
