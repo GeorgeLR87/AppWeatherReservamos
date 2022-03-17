@@ -5,7 +5,7 @@ const ClimaDays = ({resultado}) => {
 
     const { daily } = resultado
 
-    console.log(daily);
+    /* console.log(daily);
 
      let menor = daily[0].temp.day
 
@@ -25,7 +25,7 @@ const ClimaDays = ({resultado}) => {
           })          
      } 
 
-     console.log(menor, newIndex);
+     console.log(menor, newIndex); */
 
     
       
